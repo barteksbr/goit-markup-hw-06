@@ -207,6 +207,62 @@ body {
     transition: opacity 500ms;
 }
 
+.modalForm_Text {
+margin: 72px 24px 16px 24px;
+font-weight: 500;
+letter-spacing: 0.02em;
+size: 16px;
+line-height: 24px;
+color: #2E2F42;
+}
+
+.formModal_labelName {
+    font-weight: 400;
+    size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+    margin-left: 24px;
+}
+
+.formModal_input {
+    border: solid 1px #2E2F4266;
+    border-radius: 4px;
+    margin: 4px 24px 8px 24px;
+    padding: 6px;
+}
+
+.formCheckbox {
+    width: 16px;
+    height: 16px;
+    margin-left: 24px;
+}
+
+.formModal_button {
+    border: none;
+    border-radius: 4px;
+    padding: 16px 32px 16px 32px;
+    background-color: #4D5AE5;
+}
+
+.formModal_sendButton {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color:#FFFFFF;
+    padding: 25px;
+}
+
+.conditions_text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+}
+
+
 .target_list {
     list-style: none;
     display: flex;
@@ -383,6 +439,32 @@ li:hover .overlay {
     color: #FFFFFF;
     letter-spacing: 0.02em;
     padding-bottom: 16px;
+}
+
+.subscribe_footer {
+    padding-left: 80px;
+}
+
+.footerForm_text {
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0.02em;
+    padding-bottom: 16px;
+}
+
+.footerForm_field {
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    background-color: #2E2F42;
+}
+
+.footerTextButton {
+    color: #FFFFFF;
+    letter-spacing: 0.04em;
+    line-height: 24px;
+    padding-right: 16px;
 }
 
 .social_media_footer {

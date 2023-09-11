@@ -60,6 +60,46 @@
             <div class="backdrop is-hidden" data-modal>
                 <div class="modal">
                     <button data-modal-close class="x_button">X</button>
+
+                    <div class="modalForm_container">
+                        <p class="modalForm_Text">Leave your contacts and we will call you back</p>
+                        <form class="form_modal">
+                            <p>
+                                <label class="formModal_label">
+                                    <span class="formModal_labelName">Name</span> <input name="firstName" required
+                                        minlength="3" maxlength="12" class="formModal_input">
+                                </label>
+                            </p>
+                            <p>
+                                <label class="formModal_label">
+                                    <span class="formModal_labelName">Phone</span>
+                                    <input type="tel" name="tel" class="formModal_input">
+                                </label>
+                            </p>
+                            <p>
+                                <label class="formModal_label">
+                                    <span class="formModal_labelName">Email</span>
+                                    <input type="email" name="email" class="formModal_input">
+                                </label>
+                            </p>
+                            <p>
+                                <label class="formModal_label">
+                                    <span class="formModal_labelName"> Comments</span>
+                                    <textarea name="description" rows="5"
+                                        cols="30" placeholder="text input" class="formModal_input"></textarea>
+                                </label>
+                            </p>
+                            <p>
+                                <label class="checkboxLabel">
+                                    <input type="checkbox" name="terms and conditions" class="formCheckbox"> <span class="conditions_text">accept the terms and conditions of the <span class="PolicyLink">Privacy Policy</span></span>
+                                </label>
+                            </p>
+                            <div class="formModal_buttonContainer">
+                                <button class="formModal_button"><span class="formModal_sendButton">Send</span></button>
+
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
 
@@ -392,6 +432,24 @@
                         </a>
                     </li>
                 </ul>
+            </div>
+            <div class="subscribe_footer">
+                <p class="footerForm_text">Subscribe</p>
+                <div>
+                    <form class="form_container">
+                        <label>
+                            <input type="email" name="email" placeholder="e-mail" class="footerForm_field">
+                        </label>
+                        <p>
+                            <button class="footerForm_button"><span class="footerTextButton">Subscribe</span>
+                                <svg width="24px" height="20px">
+                                    <use href="./images/send_ikon.svg#icon-icon-send"></use>
+                                </svg>
+                            </button>
+
+                        </p>
+                    </form>
+                </div>
             </div>
         </footer>
     </div>
