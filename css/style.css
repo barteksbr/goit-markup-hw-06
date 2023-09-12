@@ -230,12 +230,45 @@ color: #2E2F42;
     border-radius: 4px;
     margin: 4px 24px 8px 24px;
     padding: 6px;
+    width: 100%;
+    max-width: 330px;
+    resize: none;
+}
+
+
+.formModal_input:hover {
+    border: solid 1px #4D5AE5;
+    outline: none;
+}
+
+.formModal_input:focus {
+    border: solid 1px #4D5AE5;
+    outline: none;
+}
+
+.formModal_input:focus-within {
+    border: solid 1px #4D5AE5;
+    outline: none;
+}
+
+.modalForm_icons {
+    position: relative;
+    right: 342px;
+}
+
+.modalForm_icons:hover {
+    color: #4D5AE5;
 }
 
 .formCheckbox {
     width: 16px;
     height: 16px;
     margin-left: 24px;
+}
+
+.policyLink {
+    color: #4D5AE5;
+    text-decoration: underline;
 }
 
 .formModal_button {
