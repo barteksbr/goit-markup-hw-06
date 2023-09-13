@@ -234,6 +234,7 @@ color: #2E2F42;
     max-width: 301px;
     resize: none;
     padding-left: 45px;
+    letter-spacing: 0.04em;
 }
 
 
@@ -260,6 +261,7 @@ color: #2E2F42;
     width: 100%;
     max-width: 340px;
     resize: none;
+    letter-spacing: 0.04em;
 }
 
 .formModal_input_text:hover {
