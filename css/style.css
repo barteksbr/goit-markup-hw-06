@@ -225,14 +225,19 @@ color: #2E2F42;
     margin-left: 24px;
 }
 
+.inputModal_container {
+    margin-bottom: -17px;
+}
+
 .formModal_input {
     border: solid 1px #2E2F4266;
     border-radius: 4px;
     margin: 4px 24px 8px 24px;
     padding: 6px;
     width: 100%;
-    max-width: 330px;
+    max-width: 301px;
     resize: none;
+    padding-left: 45px;
 }
 
 
@@ -251,12 +256,41 @@ color: #2E2F42;
     outline: none;
 }
 
+.formModal_input_text {
+    border: solid 1px #2E2F4266;
+    border-radius: 4px;
+    margin: 4px 24px 8px 24px;
+    padding: 6px;
+    width: 100%;
+    max-width: 340px;
+    resize: none;
+}
+
+.formModal_input_text:hover {
+    border: solid 1px #4D5AE5;
+    outline: none;
+}
+
+.formModal_input_text:focus {
+    border: solid 1px #4D5AE5;
+    outline: none;
+}
+
+.formModal_input_text:focus-within {
+    border: solid 1px #4D5AE5;
+    outline: none;
+}
 .modalForm_icons {
     position: relative;
-    right: 342px;
+    right: -53px;
+    top: -32px;
 }
 
 .modalForm_icons:hover {
+    color:#4D5AE5;
+}
+
+.modalForm_icons:focus-within {
     color: #4D5AE5;
 }
 
@@ -491,6 +525,7 @@ li:hover .overlay {
     width: 264px;
     height: 40px;
     background-color: #2E2F42;
+    padding-left: 10px;
 }
 
 .footerTextButton {

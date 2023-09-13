@@ -18,11 +18,6 @@
     flex-direction: column;
 }
 
-.formModal_label {
-    display: flex;
-    flex-direction: column;
-}
-
 .checkboxLabel {
     display: flex;
     gap: 8px;
