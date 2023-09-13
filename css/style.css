@@ -218,15 +218,11 @@ color: #2E2F42;
 
 .formModal_labelName {
     font-weight: 400;
-    size: 12px;
+    font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.04em;
     color: #8E8F99;
     margin-left: 24px;
-}
-
-.inputModal_container {
-    margin-bottom: -17px;
 }
 
 .formModal_input {
@@ -282,17 +278,17 @@ color: #2E2F42;
 }
 .modalForm_icons {
     position: relative;
-    right: -53px;
+    right: -42px;
     top: -32px;
 }
 
-.modalForm_icons:hover {
-    color:#4D5AE5;
-}
+.inputModal_container {
+    margin-bottom: -17px;
+  }
 
-.modalForm_icons:focus-within {
-    color: #4D5AE5;
-}
+.inputModal_container:focus-within {
+    fill: #4D5AE5;
+  }
 
 .formCheckbox {
     width: 16px;
